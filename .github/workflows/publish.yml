@@ -2,7 +2,7 @@ name: Public Npm
 
 on:
   push:
-    branches: [ publish ]
+    branches: [ publish-hfun-ui ]
 
 
 jobs:
