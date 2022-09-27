@@ -1,5 +1,5 @@
 import { createApp } from "vue/dist/vue.esm-browser";
-import SmartyUI from './entry'
+import HfunUI from './entry'
 createApp({
        template:`
        <div style="margin-bottom:20px;">
@@ -38,5 +38,5 @@ createApp({
    </div>
        `
       })
-   .use(SmartyUI)
+   .use(HfunUI)
    .mount("#app");

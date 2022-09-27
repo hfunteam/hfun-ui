@@ -1,6 +1,6 @@
 {
-  "name": "smarty-ui-vite",
-  "version": "1.0.0",
+  "name": "hfun-ui-vite",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
     "@iconify-json/ic": "^1.1.9",
