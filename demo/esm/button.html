@@ -1,0 +1,24 @@
+<h1>Demo</h1>
+<div id="app"></div>
+<script type="module">
+    import { createApp } from "../../node_modules/vue/dist/vue.esm-bundler.js";
+    import SmartyUI, {
+        SFCButton,
+        JSXButton,
+        MyButton,
+    } from "../../dist/smarty-ui.esm.js";
+
+    console.log('SFCButton :>> ', SFCButton);
+
+    createApp({
+        template: `
+<SButton/>
+<JSXButton/>
+<SFCButton/>
+`,
+    })
+        .component(SFCButton.name, SFCButton)
+        .component(JSXButton.name, JSXButton)
+        .component(MyButton.name, MyButton)
+        .mount("#app");
+</script>

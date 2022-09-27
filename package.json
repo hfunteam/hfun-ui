@@ -1,0 +1,51 @@
+{
+  "name": "smarty-ui-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "eslint --fix --ext .ts,.vue src",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@iconify-json/ic": "^1.1.9",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/test-utils": "^2.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.24.0",
+    "eslint-formatter-pretty": "^4.1.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.5.1",
+    "happy-dom": "^6.0.4",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
+    "terser": "5.4.0",
+    "unocss": "^0.45.22",
+    "vite": "3.0.9",
+    "vitepress": "0.22.4",
+    "vitest": "^0.23.4"
+  },
+  "dependencies": {
+    "@algolia/client-search": "^4.9.1",
+    "@babel/core": "^7.19.1",
+    "@commitlint/cli": "17.0.2",
+    "@commitlint/config-conventional": "17.0.2",
+    "esbuild-darwin-arm64": "^0.15.7",
+    "typescript": "*",
+    "vue": "^3.2.39"
+  }
+}
