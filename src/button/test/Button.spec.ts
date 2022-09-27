@@ -14,7 +14,7 @@ describe("Button", () => {
     });
 
     // 断言
-    expect(wrapper.text()).toBe("Button");
+    expect(wrapper.text()).toBe("Button11");
   });
   describe("color", () => {
     test("default", () => {
