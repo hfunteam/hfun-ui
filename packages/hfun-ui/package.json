@@ -1,6 +1,6 @@
 {
   "name": "hfun-ui-vite",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,6 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.5.1",
     "happy-dom": "^6.0.4",
-    "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "terser": "5.4.0",
     "unocss": "^0.45.22",
