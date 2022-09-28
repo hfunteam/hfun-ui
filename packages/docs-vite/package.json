@@ -1,16 +1,15 @@
 {
-  "name": "hfun-20220923",
+  "name": "docs-vite",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vite": "3.0.9"
+    "hfun-ui-vite": "workspace:^0.1.1"
   }
 }
