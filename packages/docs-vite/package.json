@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "hfun-ui-vite": "workspace:^0.1.1"
+  },
+  "devDependencies": {
+    "vue": "^3.2.39"
   }
 }
