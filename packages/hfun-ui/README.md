@@ -12,6 +12,9 @@ hfunUI 组件库🧑‍💻👩‍💻👨‍💻
 <img src="https://img.shields.io/github/package-json/v/hfunteam/hfun-ui"/>
 <img src="https://img.shields.io/github/last-commit/hfunteam/hfun-ui"/>
 <img src="https://img.shields.io/npm/v/hfun-ui-vite"/>
+<a href="https://codecov.io/gh/hfunteam/hfun-ui" > 
+ <img src="https://codecov.io/gh/hfunteam/hfun-ui/branch/master/graph/badge.svg?token=Z33NZJF0EH"/> 
+ </a>
 <img src="https://img.shields.io/github/stars/hfunteam"/>
 
 ## ✨ 特性
@@ -23,7 +26,7 @@ hfunUI 组件库🧑‍💻👩‍💻👨‍💻
 - 📰 基于 Eslint + Prettier + husky完成项目规范化
 - 🧮 基于 Github Action 进行 CI、CD
 - 📤 利用 Monorepo 方式管理组件库生态
-
+- 🔥 使用 Codecov 生成测试报告
 ## 🔑 安装
 
 使用 `pnpm` 安装
