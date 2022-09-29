@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ master ]
+    branches: [ publish-hfun-ui ]
   pull_request:
-    branches: [ master ]
+    branches: [ publish-hfun-ui ]
 jobs:
   Lint:
     # The type of runner that the job will run on
