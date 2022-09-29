@@ -1,10 +1,8 @@
-import { defineConfig } from "vite";
+import { defineConfig, UserConfigExport } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import Unocss from "./config/unocss";
-import { presetUno, presetAttributify, presetIcons } from "unocss";
 import { join } from "path";
-// import Unocss from "unocss/vite";
 // https://vitejs.dev/config/
 const rollupOptions = {
   external: ["vue", "vue-router"],
@@ -15,12 +13,12 @@ const rollupOptions = {
   },
 };
 
-export default defineConfig({
-    resolve: {
+export const config = {
+  resolve: {
     alias: {
       "@": join(__dirname, "packages"),
-    }
     },
+  },
   test: {
     // enable jest-like global test APIs
     globals: true,
@@ -46,5 +44,8 @@ export default defineConfig({
       formats: ["esm", "umd", "iife"],
     },
     cssCodeSplit: true,
+    outDir: "./dist",
   },
-});
+};
+
+export default defineConfig(config as UserConfigExport);
