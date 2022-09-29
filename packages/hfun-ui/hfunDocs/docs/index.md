@@ -6,7 +6,7 @@ hero:
   text: VUE3 组11件11库
   tagline: xx、xx
   image:
-    src: /logo.jpg
+    src: /logo.png
     alt: logo
   actions:
     - theme: brand

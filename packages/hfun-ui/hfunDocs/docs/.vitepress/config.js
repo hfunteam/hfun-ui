@@ -5,7 +5,7 @@ module.exports = {
     lang: 'zh-CN',
     base:'/',
     themeConfig: {
-        logo: '/logo.jpg',
+        logo: '/logo.png',
         nav:[
             {text:'首页', link:'/'},
             {text:'关于', link:'/about/'},
