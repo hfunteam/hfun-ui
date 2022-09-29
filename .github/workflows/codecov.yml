@@ -25,9 +25,9 @@ jobs:
       - name: Install modules
         run: pnpm install
       - name: Run Test Coverage
-        run: cd packages/smarty-ui-vite && pnpm coverage
+        run: cd packages/hfun-ui && pnpm coverage
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
-          directory: packages/smarty-ui-vite/coverage
+          directory: packages/hfun-ui/coverage
           token: ${{ secrets.CODECOV_TOKEN }}
