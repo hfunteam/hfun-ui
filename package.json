@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://hfunteam.github.io/",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install"
