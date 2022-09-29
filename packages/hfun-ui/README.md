@@ -1,8 +1,6 @@
 <br>
 <p align="center">
-<a href="https://sli.dev" target="_blank">
-<img src="https://raw.githubusercontent.com/hfunteam/hfun-ui/master/hfunDocs/docs/public/logo.png" alt="hfunui" height="250" width="250">
-</a>
+<img src="https://github.com/hfunteam/hfun-ui/blob/publish-hfun-ui/packages/hfun-ui/hfunDocs/docs/public/logo.png?raw=true" alt="hfunui" height="250" width="250">
 </p>
 
 <p align="center">
