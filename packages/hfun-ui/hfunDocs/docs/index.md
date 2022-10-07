@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: HFUNUI
-  text: VUE3 组11件11库
+  text: VUE3 组件库
   tagline: xx、xx
   image:
     src: /logo.png
