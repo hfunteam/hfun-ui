@@ -21,11 +21,11 @@ jobs:
         run: cd packages/hfun-ui && pnpm install
       - name: Build
         run: cd packages/hfun-ui && pnpm run build
-      - name: "cd packages/hfun-ui/dist && Publish to the npm registry"
+      - name: "Publish to the npm registry"
         uses: primer/publish@3.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }} # 跟前面步骤中的 NPM_AUTH_TOKEN 保持一致
         with:
           default_branch: "publish-hfun-ui"
-          dir: "packages/hfun-ui"
+          dir: "packages/hfun-ui/dist"
