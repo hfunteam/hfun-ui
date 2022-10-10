@@ -1,24 +1,19 @@
 <h1>Demo</h1>
 <div id="app"></div>
+
+<link rel="stylesheet" href="style.css">
 <script type="module">
-    import { createApp } from "../../node_modules/vue/dist/vue.esm-bundler.js";
-    import {
-        SFCButton,
-        JSXButton,
-        MyButton,
-    } from "../../dist/hfun-ui.esm.js";
+  import { createApp } from "vue/dist/vue.esm-bundler.js";
+  import hfunUI, {
+    SButton,
+  } from "../../dist/hfun-ui.esm.js";
 
-    console.log('SFCButton :>> ', SFCButton);
 
-    createApp({
-        template: `
-<SButton/>
-<JSXButton/>
-<SFCButton/>
+  createApp({
+    template: `
+      <SButton>SButton</SButton>
 `,
-    })
-        .component(SFCButton.name, SFCButton)
-        .component(JSXButton.name, JSXButton)
-        .component(MyButton.name, MyButton)
-        .mount("#app");
+  })
+    .component(Button.name, Button)
+    .mount("#app");
 </script>

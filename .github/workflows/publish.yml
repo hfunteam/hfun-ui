@@ -21,6 +21,8 @@ jobs:
         run: cd packages/hfun-ui && pnpm install
       - name: Build
         run: cd packages/hfun-ui && pnpm run build
+      - name: Go In dist
+        run: cd dist
       - name: "Publish to the npm registry"
         uses: primer/publish@3.0.0
         env:

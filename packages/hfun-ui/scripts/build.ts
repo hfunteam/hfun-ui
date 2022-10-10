@@ -9,7 +9,6 @@ const buildAll = async () => {
   // 全量打包
   await build(defineConfig(config as UserConfig) as InlineConfig);
   // await build(defineConfig({}))
-    console.log('__dirname', __dirname)
   const srcDir = path.resolve(__dirname, "../src/");
   fs.readdirSync(srcDir)
     .filter((name) => {
@@ -19,8 +18,6 @@ const buildAll = async () => {
       return isDir && fs.readdirSync(componentDir).includes("index.ts");
     })
     .forEach(async (name) => {
-        console.warn('config.build',config.build);
-        
       const outDir = path.resolve(config.build.outDir, name);
       const custom = {
         lib: {
