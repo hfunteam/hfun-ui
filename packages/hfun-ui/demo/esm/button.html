@@ -1,14 +1,12 @@
 <h1>Demo</h1>
 <div id="app"></div>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../../dist/style.css">
 <script type="module">
   import { createApp } from "vue/dist/vue.esm-bundler.js";
-  import SmartyUI, {
-    SFCButton,
-    JSXButton,
-    Button,
-  } from "../../dist/smarty-ui.esm.js";
+  import HfunUI, {
+    MyButton,
+  } from "../../dist/hfun-ui.esm.js";
 
 
   createApp({
@@ -18,8 +16,6 @@
       <SFCButton/>
 `,
   })
-    .component(SFCButton.name, SFCButton)
-    .component(JSXButton.name, JSXButton)
-    .component(Button.name, Button)
+    .component(MyButton.name, MyButton)
     .mount("#app");
 </script>

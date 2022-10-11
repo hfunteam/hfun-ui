@@ -52,7 +52,12 @@ yarn add --save-dev hfun-ui-vite
 在 `main.ts` 中引入下面内容
 
 ```
-// 待更新
+import { createApp } from 'vue'
+import App from './App.vue'
+import hfunUI from 'hfun-ui-vite'
+import 'hfun-ui-vite/style.css'
+
+createApp(App).use(hfunUI).mount('#app')
 ```
 
 ## 🎨 相关链接
