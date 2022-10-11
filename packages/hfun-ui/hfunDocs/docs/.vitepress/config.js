@@ -1,7 +1,7 @@
 // import { defineConfig } from "vite";
 
 module.exports = {
-    title:'hfunui组件库0923',
+    title:'hfun 组件库',
     lang: 'zh-CN',
     base:'/',
     themeConfig: {
@@ -24,7 +24,7 @@ module.exports = {
             ]
         },
         socialLinks:[
-            {icon:'github', link:'/'}
+            {icon:'github', link:'https://github.com/hfunteam/hfun-ui'}
         ],
         footer:{
             message: 'Released under the MIT License.',

@@ -14,7 +14,7 @@ hero:
       link: /component/
     - theme: alt
       text: GitLab
-      link: https://gitlab.hfvast.net/yeyh/hfunui
+      link: https://github.com/hfunteam/hfun-ui
 
 features:
   - icon: ⚡️
