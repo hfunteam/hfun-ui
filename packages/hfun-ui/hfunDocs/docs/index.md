@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /test
+      link: /component/
     - theme: alt
       text: GitLab
       link: https://gitlab.hfvast.net/yeyh/hfunui

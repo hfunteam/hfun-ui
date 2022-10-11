@@ -20,7 +20,7 @@ hfunUI 组件库🧑‍💻👩‍💻👨‍💻
 ## ✨ 特性
 
 - ✈️  基于 Vite 开发，紧跟时代
-- 📝 官方文档急于 VitePress 搭建
+- 📝 官方文档基于 VitePress 搭建
 - 🌈 用 UnoCss 实现原子化 CSS
 - 💻 基于 Vitest进行单元测试
 - 📰 基于 Eslint + Prettier + husky完成项目规范化
