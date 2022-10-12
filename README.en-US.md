@@ -4,11 +4,11 @@
 </p>
 
 <p align="center">
-hfunUI 组件库🧑‍💻👩‍💻👨‍💻
+hfunUI componentLibrary🧑‍💻👩‍💻👨‍💻
 </p>
 
 <p align="center">
-  中文 | <a href="https://github.com/hfunteam/hfun-ui/blob/publish-hfun-ui/README.en-US.md">English</a>
+  <a href="https://github.com/hfunteam/hfun-ui/blob/publish-hfun-ui/README.md">Chinese</a> | English
 </p>
 
 <p align="center">
@@ -21,39 +21,39 @@ hfunUI 组件库🧑‍💻👩‍💻👨‍💻
  </a>
 <img src="https://img.shields.io/github/stars/hfunteam"/>
 
-## ✨ 特性
+## ✨ Features
 
-- ✈️  基于 Vite 开发，紧跟时代
-- 📝 官方文档急于 VitePress 搭建
-- 🌈 用 UnoCss 实现原子化 CSS
-- 💻 基于 Vitest进行单元测试
-- 📰 基于 Eslint + Prettier + husky完成项目规范化
-- 🧮 基于 Github Action 进行 CI、CD
-- 📤 利用 Monorepo 方式管理组件库生态
-- 🔥 使用 Codecov 生成测试报告
-## 🔑 安装
+- ✈️  Based on the vite development, follow the era
+- 📝 The official documentation based on vitepress structures
+- 🌈 Use unocss atomization css
+- 💻 Based on vitest unit test
+- 📰 Based on eslint, prettier, husky to complete the project standardization
+- 🧮 Based on making the action of ci, cd
+- 📤 Using the management component library ecological monorepo way
+- 🔥 Using codecov generate test report
+## 🔑 Install
 
-使用 `pnpm` 安装
+Use `pnpm` install
 
 ```shell
 pnpm add --save-dev hfun-ui-vite
 ```
 
-使用 `npm` 安装
+Use `npm` install
 
 ```shell
 npm install --save-dev hfun-ui-vite
 ```
 
-使用 `yarn` 安装
+Use `yarn` install
 
 ```shell
 yarn add --save-dev hfun-ui-vite
 ```
 
-## 🎉 快速上手
+## 🎉 Quick Start
 
-在 `main.ts` 中引入下面内容
+In ` main.ts ` introduced in the following content
 
 ```
 import { createApp } from 'vue'
@@ -64,7 +64,7 @@ import 'hfun-ui-vite/style.css'
 createApp(App).use(hfunUI).mount('#app')
 ```
 
-## 🎨 相关链接
+## 🎨 Related links
 
-- [官方文档](https://hfunteam.github.io/)
+- [Official documents](https://hfunteam.github.io/)
 - [NPM](https://www.npmjs.com/package/hfun-ui-vite)

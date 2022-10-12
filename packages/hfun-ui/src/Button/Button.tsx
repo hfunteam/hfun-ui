@@ -83,13 +83,11 @@ export default defineComponent({
           mx-1
           `}
       >
-        {
-        props.icon !== "" ? (
+        {props.icon !== "" ? (
           <i class={`i-ic-baseline-${props.icon} p-3`}></i>
         ) : (
           ""
-        )
-        }
+        )}
         {slots.default ? slots.default() : ""}
       </button>
     );
