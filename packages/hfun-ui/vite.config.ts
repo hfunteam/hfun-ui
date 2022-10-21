@@ -1,5 +1,5 @@
 /// <reference types="vitest" />
-import { defineConfig, Plugin, Plugin_2 } from "vite";
+import { defineConfig, Plugin_2 } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import UnoCss from "./config/unocss";

@@ -42,11 +42,9 @@ export const props = {
 } as const;
 
 export default defineComponent({
-  name: "SButton",
+  name: "HButton",
   props,
   setup(props, { slots }) {
-    console.log(`html`, document.querySelector(`#app`)?.innerHTML);
-
     const size = {
       small: {
         x: "2",

@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "./button";
 import { App } from "vue";
 
 // 导出Button组件

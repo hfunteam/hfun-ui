@@ -1,0 +1,14 @@
+
+    {
+        "consigneeNotScanCause": "",
+        "ifScan": "",
+        "isPrint": "0",
+        "operationState": "1",
+        "outputDetailList": [
+            {
+                "labels": [],
+                "outputDetailId": "EX202208221720000745217"
+            }
+        ],
+        "outputNo": "EX202208221720000745216"
+    }
