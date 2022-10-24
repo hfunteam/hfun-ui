@@ -64,6 +64,17 @@ import 'hfun-ui-vite/style.css'
 createApp(App).use(hfunUI).mount('#app')
 ```
 
+按需导入
+
+```
+import { createApp } from 'vue'
+import App from './App.vue'
+
+import { HButton } from 'hfun-ui-vite'
+import 'hfun-ui-vite/Button/style.css'
+createApp(App).component(HButton.name, HButton).mount('#app')
+```
+
 ## 🎨 相关链接
 
 - [官方文档](https://hfunteam.github.io/)
