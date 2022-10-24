@@ -53,6 +53,7 @@ yarn add --save-dev hfun-ui-vite
 
 ## 🎉 快速上手
 
+### 📈 全量导入
 在 `main.ts` 中引入下面内容
 
 ```
@@ -64,14 +65,14 @@ import 'hfun-ui-vite/style.css'
 createApp(App).use(hfunUI).mount('#app')
 ```
 
-按需导入
+### 😄 按需导入
 
 ```
 import { createApp } from 'vue'
 import App from './App.vue'
 
 import { HButton } from 'hfun-ui-vite'
-import 'hfun-ui-vite/Button/style.css'
+import 'hfun-ui-vite/HButton/style.css'
 createApp(App).component(HButton.name, HButton).mount('#app')
 ```
 

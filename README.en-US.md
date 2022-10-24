@@ -53,6 +53,8 @@ yarn add --save-dev hfun-ui-vite
 
 ## 🎉 Quick Start
 
+### 📈 fullAmountOfImport
+
 In ` main.ts ` introduced in the following content
 
 ```
@@ -63,6 +65,18 @@ import 'hfun-ui-vite/style.css'
 
 createApp(App).use(hfunUI).mount('#app')
 ```
+
+### 😄 accordingToTheNeedToImport
+
+```
+import { createApp } from 'vue'
+import App from './App.vue'
+
+import { HButton } from 'hfun-ui-vite'
+import 'hfun-ui-vite/HButton/style.css'
+createApp(App).component(HButton.name, HButton).mount('#app')
+```
+
 
 ## 🎨 Related links
 
