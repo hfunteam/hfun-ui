@@ -4,7 +4,8 @@
 </script>
 
 <template>
-  <div style="margin-bottom: 20px">
+  <HAvator></HAvator>
+  <!-- <div style="margin-bottom: 20px" mt-20>
     <HButton color="blue">主要按钮</HButton>
     <HButton color="green">绿色按钮</HButton>
     <HButton color="gray">灰色按钮</HButton>
@@ -36,5 +37,5 @@
     <HButton color="gray" round plain icon="check"></HButton>
     <HButton color="yellow" round plain icon="message"></HButton>
     <HButton color="red" round plain icon="delete"></HButton>
-  </div>
+  </div> -->
 </template>
