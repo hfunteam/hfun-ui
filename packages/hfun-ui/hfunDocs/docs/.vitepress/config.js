@@ -14,11 +14,12 @@ module.exports = {
         sidebar:{
             '/component/':[
                 {
-                    text:'分类一',
+                    text:'基础组件',
                     collapsible:true,
                     collapsed:false,
                     items:[
-                        { text:'按钮', link:'/component/sidebar/class1/button.md'}
+                        { text:'按钮', link:'/component/sidebar/basic/h-button.md'},
+                        { text:'头像', link:'/component/sidebar/basic/h-avator.md'}
                     ]
                 }
             ]

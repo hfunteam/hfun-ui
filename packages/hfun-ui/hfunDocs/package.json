@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "bash deploy.sh",
-    "docs:dev": "vitepress dev docs",
+    "dev": "vitepress dev docs",
     "register:components": "vitepress-rc",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
