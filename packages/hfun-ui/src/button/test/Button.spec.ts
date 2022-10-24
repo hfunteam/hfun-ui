@@ -1,5 +1,7 @@
-import { describe, expect } from "vitest";
+import { describe, expect, test } from "vitest";
 // 测试分组
 describe("Button", () => {
-  expect(1 + 1).toBe(2);
+  test("Button", () => {
+    expect(1 + 1).toBe(2);
+  });
 });
